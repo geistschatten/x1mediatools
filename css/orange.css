@@ -1,0 +1,60 @@
+.ui-header:after {
+	background: rgb(249,141,32);
+	background: -moz-linear-gradient(top, rgba(249,141,32,1) 0%, rgba(230,130,30,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,141,32,1)), color-stop(100%,rgba(230,130,30,1)));
+	background: -webkit-linear-gradient(top, rgba(249,141,32,1) 0%,rgba(230,130,30,1) 100%);
+	background: -o-linear-gradient(top, rgba(249,141,32,1) 0%,rgba(230,130,30,1) 100%);
+	background: -ms-linear-gradient(top, rgba(249,141,32,1) 0%,rgba(230,130,30,1) 100%);
+	background: linear-gradient(to bottom, rgba(249,141,32,1) 0%,rgba(230,130,30,1) 100%);
+	border-color: #965913;
+}
+
+#slider h2 {
+	background: rgb(254,186,63);
+	background: -moz-linear-gradient(top, rgba(254,186,63,1) 0%, rgba(254,142,32,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,186,63,1)), color-stop(100%,rgba(254,142,32,1)));
+	background: -webkit-linear-gradient(top, rgba(254,186,63,1) 0%,rgba(254,142,32,1) 100%);
+	background: -o-linear-gradient(top, rgba(254,186,63,1) 0%,rgba(254,142,32,1) 100%);
+	background: -ms-linear-gradient(top, rgba(254,186,63,1) 0%,rgba(254,142,32,1) 100%);
+	background: linear-gradient(to bottom, rgba(254,186,63,1) 0%,rgba(254,142,32,1) 100%);
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.7);
+	box-shadow: 0 2px 2px rgba(0,0,0,.5);
+}
+
+#portfolio .flex-control-nav a.flex-active {
+	background: rgb(251,251,251);
+	background: -moz-linear-gradient(top, rgba(251,251,251,1) 0%, rgba(166,166,166,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(251,251,251,1)), color-stop(100%,rgba(166,166,166,1)));
+	background: -webkit-linear-gradient(top, rgba(251,251,251,1) 0%,rgba(166,166,166,1) 100%);
+	background: -o-linear-gradient(top, rgba(251,251,251,1) 0%,rgba(166,166,166,1) 100%);
+	background: -ms-linear-gradient(top, rgba(251,251,251,1) 0%,rgba(166,166,166,1) 100%);
+	background: linear-gradient(to bottom, rgba(251,251,251,1) 0%,rgba(166,166,166,1) 100%);
+	box-shadow: 0 1px 1px rgba(255,255,255,.3) inset;
+	border-color: #a9a9a9;
+}
+
+.title {
+	background: rgb(254,186,63);
+	background: -moz-linear-gradient(top, rgba(254,186,63,1) 0%, rgba(254,142,32,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,186,63,1)), color-stop(100%,rgba(254,142,32,1)));
+	background: -webkit-linear-gradient(top, rgba(254,186,63,1) 0%,rgba(254,142,32,1) 100%);
+	background: -o-linear-gradient(top, rgba(254,186,63,1) 0%,rgba(254,142,32,1) 100%);
+	background: -ms-linear-gradient(top, rgba(254,186,63,1) 0%,rgba(254,142,32,1) 100%);
+	background: linear-gradient(to bottom, rgba(254,186,63,1) 0%,rgba(254,142,32,1) 100%);
+	}
+.title, .title a { color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,.3); }
+
+nav li a, #services li .ui-collapsible-heading-toggle { color: #dc8100; text-shadow: 0 1px 0 rgba(255,255,255,.5); }
+
+nav li a:after, #services li .ui-collapsible-heading-toggle:after, .title > * + *:after, #project .entry .back:after { background-image: url(images/orange/link-arrows.png); }
+
+article p a, #services p a { color: #dc8100; }
+
+#project .entry .back { color: #dc8100; }
+
+@media 	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+		only screen and (min--moz-device-pixel-ratio: 1.5),
+		only screen and (min-resolution: 240dpi) {
+			nav li a:after, #services li .ui-collapsible-heading-toggle:after, .title > * + *:after, #project .entry .back:after { background-image: url(images/orange/link-arrows@2x.png); -webkit-background-size: 24px 18px; -ms-background-size: 24px 18px; background-size: 24px 18px; }
+		}
